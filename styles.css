@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+#container {
+    background: url("./assets/background.jpeg");
+    padding-bottom: 140px;
+}
+
+#button--get-in {
+    cursor: pointer;
+    background-color: #e50914;
+    font-size: 16px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 3px;
+    float: right;
+}
+
+#button--get-in:hover {
+    opacity: 0.9;
+}
+
+#button--get-in:active {
+    opacity: 0.7;
+}
+
+#header {
+    padding: 28px 56px;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 60px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#first-paragraph {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+#seccond-paragraph {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+}
+
+#button-email {
+    width: 240px;
+    background-color: #e50914;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#button-email:hover {
+    opacity: 0.9;
+}
+
+#button-email:active {
+    opacity: 0.7;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+}
+
+#footer {
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 70px 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#question-button {
+    width: 800px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#question-image {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(45deg);
+}
+
+#question-image-spin {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}
+
+#question {
+    width: 800px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 24px;
+    display: none;
+}
+
+.question-paragraph {
+    font-size: 24px;
+}
